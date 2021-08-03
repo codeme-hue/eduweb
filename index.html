@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Website</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">EduWeb</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#banner">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kelas">Kelas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- /navbar -->
+    <!-- header -->
+    <div class="container-fluid mb-5 banner" id="banner">
+        <div class="container text-center">
+            <h4 class="display-6">Selamat Datang Di Website Kami</h4>
+            <h3 class="display-1">Education Website</h3>
+            <a href="#kelas">
+                <button class="btn btn-danger btn-lg" type="button">
+                    Baca Selanjutnya ...
+                </button>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- /Header -->
+
+    <!-- Kelas -->
+    <div class="container-fluid mt-5 pb-5">
+        <div class="container  text-center">
+            <h4 class="display-3 " id="kelas">
+                Kelas
+            </h4>
+            <hr>
+            <div class="row pt-4">
+                <!-- HTML -->
+                <div class="col-md-4 mt-2">
+                    <span class="lingkaran"><i class="fab fa-html5 fa-5x"></i></span>
+                    <h4 class="mt-3">HTML</h4>
+                    <p><b>HTML</b> adalah singkatan dari <i>HyperText Markup Language</i>. HTML ini merupakan suatu
+                        sistem yang digunakan dalam internet untuk menentukan struktur konten pada halaman web.!</p>
+                    <a href="kelas/html/html.html" class="btn btn-danger">Pelajari Selengkapny <i
+                            class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+                <!-- /HTML -->
+
+                <!-- CSS -->
+                <div class="col-md-4 mt-3">
+                    <span class="lingkaran"><i class="fab fa-css3-alt fa-5x"></i></span>
+                    <h4 class="mt-3">CSS</h4>
+                    <p><b>CSS</b> atau <i>Cascading Style Sheets</i> adalah kumpulan perintah yang digunakan untuk
+                        menjelaskan tampilan sebuah halaman situs web dalam mark-up language.</p>
+                    <a href="kelas/css/css.html" class="btn btn-danger">Pelajari Selengkapny <i
+                            class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+                <!-- /CSS -->
+                <!-- Javascript -->
+                <div class="col-md-4 mt-3">
+                    <span class="lingkaran"><i class="fab fa-js-square fa-5x"></i></span>
+                    <h4 class="mt-3">Javascript</h4>
+                    <p><b>JavaScript</b> adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih
+                        dinamis dan interaktif. Javascript dapat meningkatkan fungsionalitas pada halaman web.</p>
+                    <a href="kelas/javascript/javascript.html" class="btn btn-danger">Pelajari Selengkapnya <i
+                            class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+                <!-- /Javascript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- /Kelas -->
+
+    <!-- Tentang Kami -->
+    <div class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <h4 class="display-3 text-center" id="tentang">
+                Tentang
+            </h4>
+            <hr>
+            <div class="clearfix pt-5">
+                <img src="asset/img/about_us.png" alt="about" class="col-md-6 float-md-end mb-3 crop-img" width="300"
+                    height="300">
+                <p>Tujuan kami adalah menjadi penyedia pembelajaran online yang mendorong sumber pembelajaran yang lebih
+                    luas untuk semua.</p>
+                <p>Kini semua bangsa bergerak menuju dunia digital yang bertumpu pada inovasi teknologi di semua sendi
+                    kehidupan. Kami yakin edukasi online akan terus berkembang pesat dimasa seperti ini.</p>
+                <p><b>EduWeb</b> hadir sebagai penyedia pembelajaran online yang membantu menghasilkan kurikulum
+                    berbasis digital. Semua demi mengakselerasi Indonesia agar menjadi yang terdepan.</p>
+            </div>
+        </div>
+    </div>
+    <!-- /Tentang Kami -->
+
+    <!-- Kontak -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container">
+            <h4 class="display-3 text-center" id="kontak">Kontak Kami</h4>
+            <div class="row pb-3">
+                <div class="col-md-6">
+                    <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama" />
+                    <input class="form-control form-control-lg mb-3" type="text" placeholder="Email" />
+                </div>
+                <div class="col-md-6">
+                    <textarea class="form-control form-control-lg" rows="3" placeholder="Isi Pesan"></textarea>
+                </div>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+                <button type="button" class="btn btn-danger btn-lg">
+                    Kirim Pesan
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- /Kontak -->
+    <!-- Partner -->
+    <div class="container-fluid partner pt-2 pb-2">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="asset/img/unsia.png">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="asset/img/html.png">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="asset/img/bt.png">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="asset/img/jq.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Partner -->
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer>
+    <div class="text-center text-light bg-dark pb-3 pt-3">
+        All Rights Reserved &copy; 2021<b> EduWeb</b>
+    </div>
+</footer>
+
+</html>

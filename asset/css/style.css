@@ -1,0 +1,36 @@
+.banner {
+  background: url("../img/dark.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 40px;
+}
+
+.client img {
+  max-height: 5px;
+  width: 100%;
+}
+
+.kontak {
+  background: url("../img/map.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
