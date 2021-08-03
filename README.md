@@ -4,5 +4,5 @@ Nama Kelompok:
   2. Mochammad Agus Rifqi (200401010099)
   3. M Sukardi Haekal (200401010047) 
 
-link video: https://www.youtube.com/watch?v=cHUnMCuFato
-link web: http://edu-web.my.id/
+# link video: https://www.youtube.com/watch?v=cHUnMCuFato
+# link web: http://edu-web.my.id/
